@@ -1,6 +1,5 @@
 /* Fonts Section
-================
-*/
+===================== */
 
 @font-face{
     font-family: "Vazir";
@@ -21,8 +20,7 @@
 }
 
 /* Initial Values
-=================
-*/
+===================== */
 
 :root {
     --clr-primary-1: #2f3e46;
@@ -45,8 +43,7 @@
 
 /*
 Global Style
-============
-*/
+===================== */
 
 *,
 ::after,
@@ -126,8 +123,7 @@ p {
 }
 
 /* Navbar Style 
-===============
-*/
+===================== */
 
 .nav-links{
     display: none;
@@ -196,11 +192,6 @@ nav{
     }
 }
 
-.hero{
-    height: 130vh;
-    background-color: white;
-}
-
 .navbar-fixed{
     position: fixed;
     width: 100%;
@@ -211,8 +202,7 @@ nav{
 }
 
 /* Sidebar 
-==========
-*/
+===================== */
 
 .sidebar{
     position: fixed;
@@ -274,4 +264,12 @@ nav{
 
 .sidebar-icons i:hover{
     color: var(--clr-grey-1)
+}
+
+/* Hero Section
+===================== */
+
+.hero{
+    height: 130vh;
+    background-color: white;
 }
